@@ -1,10 +1,11 @@
 kill @e[type=!player]
 
 scoreboard objectives add points dummy "Points"
-scoreboard objectives add deaths dummy "Deaths"
+scoreboard objectives add died deathCount
 scoreboard objectives add points_to_win dummy "Points_to_Win"
 # 0 = solos, 1 = duos
 scoreboard objectives add mode dummy
+scoreboard objectives add died deathCount
 
 team add red "Red"
 team add blue "Blue"
