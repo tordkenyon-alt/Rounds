@@ -26,3 +26,5 @@ summon armor_stand 75 -51 35 {ShowArms:1b,Invisible:1b,Marker:1b,Small:1b,Disabl
 scoreboard players set $global points_to_win 5
 
 scoreboard players reset @a
+
+gamerule doImmediateRespawn true
